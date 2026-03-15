@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <title>Hampi Horizon Walks</title>
+
 <style>
+
 body{
-font-family: Arial;
+font-family:Arial;
 margin:0;
-text-align:center;
 background:#f5f5f5;
+text-align:center;
 }
 
 header{
-background:#b85c38;
+background:#b45b36;
 color:white;
 padding:40px;
 }
@@ -21,11 +24,24 @@ padding:40px;
 }
 
 button{
-background:#b85c38;
+background:#b45b36;
 color:white;
-padding:12px 25px;
+padding:15px 25px;
 border:none;
-font-size:16px;
+font-size:18px;
+cursor:pointer;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+padding:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
 }
 
 footer{
@@ -33,40 +49,71 @@ background:#333;
 color:white;
 padding:20px;
 }
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>Hampi Horizon Walks</h1>
+
 <p>Sunrise Treks | Hidden Trails | Ancient Landscapes</p>
+
 </header>
 
 <section>
+
 <h2>Welcome to Hampi Horizon Walks</h2>
+
 <p>Explore the ancient boulder landscapes of Hampi with guided trekking tours.</p>
 
 <button>Book Your Trek</button>
+
+</section>
+
+<section>
+
+<h2>Popular Treks</h2>
+
+<p>Matanga Hill Sunrise Trek</p>
+
+<p>Anjaneya Hill Trek</p>
+
+<p>Sanapur Lake Boulder Walk</p>
+
+</section>
+
 <section>
 
 <h2>Trek Gallery</h2>
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:20px;">
+<div class="gallery">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Hampi_Boulders.jpg" width="100%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Hampi_Temple_View.jpg" width="100%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Hampi_Rock_Formations.jpg" width="100%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Hampi_Ruins_Landscape.jpg" width="100%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Hampi_Ancient_Temples.jpg" width="100%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Hampi_Sunrise.jpg" width="100%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Hampi_Boulders.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Hampi_Rock_Formations.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Hampi_Ruins_Landscape.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Hampi_Temple_View.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Hampi_Ancient_Temples.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Hampi_Sunrise.jpg">
 
 </div>
 
 </section>
+
 <footer>
+
 <p>Contact: hampihorizonwalks@gmail.com</p>
+
 </footer>
 
 </body>
+
 </html>
