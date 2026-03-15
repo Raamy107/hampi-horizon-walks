@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hampi Horizon Walks</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#b85c38;
+color:white;
+text-align:center;
+padding:50px;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1605648916319-1d3b4e1d651d');
+background-size:cover;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:40px;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+button{
+background:#b85c38;
+color:white;
+padding:15px 25px;
+border:none;
+font-size:18px;
+cursor:pointer;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Hampi Horizon Walks</h1>
+<p>Sunrise Treks • Hidden Trails • Ancient Landscapes</p>
+</header>
+
+<nav>
+<a href="#treks">Treks</a>
+<a href="#gallery">Gallery</a>
+<a href="#map">Location</a>
+<a href="#book">Book</a>
+</nav>
+
+<div class="hero">
+Explore the Horizon of Hampi
+</div>
+
+<section id="treks">
+
+<h2>Popular Treks</h2>
+
+<p>🌄 Matanga Hill Sunrise Trek</p>
+<p>⛰ Anjaneya Hill Trek</p>
+<p>🏞 Sanapur Lake Boulder Trek</p>
+
+</section>
+
+<section id="gallery">
+
+<h2>Trek Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429">
+<img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3">
+<img src="https://images.unsplash.com/photo-1500534623283-312aade485b7">
+
+</div>
+
+</section>
+
+<section id="map">
+
+<h2>Trek Meeting Point</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=virupaksha%20temple%20hampi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="80%"
+height="400">
+</iframe>
+
+</section>
+
+<section id="book">
+
+<h2>Book Your Trek</h2>
+
+<a href="https://wa.me/918151061061">
+<button>Book on WhatsApp</button>
+</a>
+
+</section>
+
+<footer>
+
+<p>Hampi Horizon Walks</p>
+<p>Contact: +91 8151061061</p>
+
+</footer>
+
+</body>
+</html>
